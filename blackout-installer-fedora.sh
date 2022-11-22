@@ -149,7 +149,7 @@ git clone https://gist.github.com/e84ac2c8b22dd07d490758f1bc69561d.git ./dsPIC
 cd ~/
 
 #Bashrc
-git clone https://github.com/JDanielDBC/JDaniel-Bashrc.git
+git clone https://github.com/JDanielDBC/Blackout-Linux-Bashrc.git
 rm ~/.bashrc
 cp ./JDaniel-Bashrc/.bashrc ~/
 

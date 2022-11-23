@@ -84,6 +84,12 @@ sudo printf "\n#I added for speed\nfastestmirror=True\nmax_parallel_downloads=4\
 #defaultyes=True
 #keepcache=True
 
+#For ascii art on terminal:
+git clone https://github.com/TheZoraiz/ascii-image-converter.git
+cd ascii-image-converter
+sudo cp ascii-image-converter /usr/local/bin/
+cd ~/
+
 #adding user to dialout group so that they can program development boards
 touch dialout.sh
 echo "sudo usermod -a -G dialout current" > ./dialout.sh
@@ -155,6 +161,7 @@ cp ./JDaniel-Bashrc/.bashrc ~/
 
 printf "\nFinished installation\n"
 
+rm -rf ascii-image-converter
 rm -rf JDaniel-Bashrc
 rm ./dialout.sh
 rm ./dnf.sh

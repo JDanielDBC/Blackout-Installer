@@ -85,8 +85,9 @@ sudo printf "\n#I added for speed\nfastestmirror=True\nmax_parallel_downloads=4\
 #keepcache=True
 
 #For ascii art on terminal:
-git clone https://github.com/TheZoraiz/ascii-image-converter.git
-cd ascii-image-converter
+wget https://github.com/TheZoraiz/ascii-image-converter/releases/download/v1.13.1/ascii-image-converter_Linux_amd64_64bit.tar.gz
+tar xzf ascii-image-converter_Linux_amd64_64bit.tar.gz
+cd ascii-image-converter_Linux_amd64_64bit
 sudo cp ascii-image-converter /usr/local/bin/
 cd ~/
 

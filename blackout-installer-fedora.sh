@@ -91,6 +91,14 @@ cd ascii-image-converter_Linux_amd64_64bit
 sudo cp ascii-image-converter /usr/local/bin/
 cd ~/
 
+#Gtk4 looking gtk3 theme 
+wget https://github.com/lassekongo83/adw-gtk3/releases/download/v4.2/adw-gtk3v4-2.tar.xz
+sudo tar -xf adw-gtk3v4-2.tar.xz -C /usr/share/themes
+gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+#Gtk4 Firefox
+curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash
+
 #adding user to dialout group so that they can program development boards
 touch dialout.sh
 echo "sudo usermod -a -G dialout current" > ./dialout.sh

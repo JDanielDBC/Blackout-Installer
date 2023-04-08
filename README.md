@@ -1,7 +1,7 @@
 # Blackout-Installer
 Installer to turn a Fedora system into Blackout Linux
 ---
-##Instalation:
+## Instalation:
 you can run the instalation with this command:
 
 ```

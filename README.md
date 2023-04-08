@@ -1,6 +1,15 @@
 # Blackout-Installer
 Installer to turn a Fedora system into Blackout Linux
+---
+##Instalation:
+you can run the instalation with this command:
 
+```
+curl -s -o- https://raw.githubusercontent.com/JDanielDBC/Blackout-Installer/main/blackout-installer-fedora.sh | bash
+```
+
+---
+## Instructions
 Once you've downloaded this script open a terminal where you downloaded it.
 For example if the blackout-installer-fedora.sh is located in the Downloads folder 
 you can open a terminal and type " cd Downloads " (without the commas).
